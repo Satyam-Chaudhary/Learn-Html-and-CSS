@@ -1,0 +1,27 @@
+@font-face{
+    src: url(fonts/Poppins-ExtraLight.ttf);
+    font-family: Pp;
+}
+body{
+    background-color: hsl(0, 0%, 0%);
+}
+h1{
+    color: white;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    color: white;
+    font-family: Pp;
+    font-style: italic;
+}
+#p2{
+    color: rgb(236, 236, 38);
+}
+.odd{
+    color: #eb3333;
+}

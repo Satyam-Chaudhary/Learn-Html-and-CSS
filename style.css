@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.heading{
+    color: white;
+    
+}
+.lyrics{
+    color: aqua;
+}
+.song{
+    background-color: white;
+    border-radius: 20px;
+}
+.button{
+    border-radius: 20px;
+    background-color: aqua;
+    
+}
