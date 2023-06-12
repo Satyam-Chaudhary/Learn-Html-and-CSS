@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    border: 2px solid ;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+#contact{
+    display: block;
+    padding: 20px;
+    background-color: rgb(160, 228, 160);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.form{
+    padding: 40px;
+    background-color: rgba(238, 232, 232, 0.387);
+}
+.box{
+    margin: 10px;
+}
+.box2{
+    width: 100%;
+    overflow: auto;
+}
+#send{
+    background-color:rgb(160, 228, 160) ;
+    padding-right:10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+}

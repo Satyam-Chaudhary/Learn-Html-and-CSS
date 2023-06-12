@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Payment form</title>
+</head>
+<body>
+    <div id="contact">
+        <h1>Contact Form</h1>
+        <h4>* marked are required</h4><br>
+    </div>
+    <div class="form">
+    <form action="index.php">
+        <label for="name" class="box">Name :</label><br>
+        <input type="text" id="name" class="box box2"  placeholder="Satyam Chaudhary" required><br>
+
+        <label for="email" class="box">Email id : </label><br>
+        <input type="email" id="email" class="box box2" placeholder="satyam@fake.com" required><br>
+
+        <label for="message" class="box" >Message :</label><br>
+        <textarea name="message" class="box box2" id="message" cols="20" rows="4"></textarea><br>
+
+        <label for="Subject" class="box" >Subject :</label><br>
+        <select name="subject" class="box box2" id="subject">
+            <option value="Job Enquiry">Job Enquiry</option>
+            <option value="Customer Care">Cistomer Care</option>
+            <option value="Refund">Refund</option>
+            <option value="Freelance">Freelance</option>
+            <option value="Quit">Quit</option>
+        </select><br>
+
+        <button id="send" class="box"> SEND</button>
+    </form>
+</div>
+</body> 
+</html>

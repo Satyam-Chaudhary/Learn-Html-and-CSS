@@ -1,0 +1,17 @@
+#container{
+    border: 2px solid;
+    background-color: aqua;
+    display: block;
+    height: auto;
+    width: 300px;
+}
+#container>p{
+    text-decoration: underline;
+}
+#container~p{
+    background-color: aquamarine;
+}
+#container+p{
+    text-decoration: underline;
+}
+
