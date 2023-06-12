@@ -3,7 +3,9 @@ body{
 }
 .heading{
     color: white;
-    
+    text-align: center;
+    display: block;
+    text-decoration: underline;
 }
 .lyrics{
     color: aqua;

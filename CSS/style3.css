@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(237, 101, 101);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+span{
+    background-color: rgb(124, 124, 208);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+#s2{
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0px;
+    visibility: hidden;
+}

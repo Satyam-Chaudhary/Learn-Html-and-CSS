@@ -1,0 +1,25 @@
+
+body{
+    background-image: url(uwp3783234.jpeg);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: sticky;
+    left : 0px;
+    visibility: hidden;
+    
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
