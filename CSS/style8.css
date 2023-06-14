@@ -1,0 +1,25 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: aqua;
+}
+p::selection{
+    color: green;
+    background-color: grey;
+}
+li::selection{
+    color: white;
+    background-color: black;
+}
+#fruit li::before{
+    content: "🥳 "
+}
+li::after{
+    content: " 👍";
+}
+#fruit li::marker{
+    content: "🚩";
+    font-size: 2em;
+}

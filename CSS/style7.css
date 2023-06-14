@@ -1,0 +1,64 @@
+button{
+    background-color: red;
+    padding: 10px;
+    display: block;
+}
+#button:hover{
+    background-color: green;
+}
+#button:active{
+    background-color: aqua;
+}
+a{
+    display: block;
+    font-size: 1.9em;
+    margin: 50px;
+}
+
+a:hover{
+    color: rgb(2, 66, 2);
+    font-size: 55px;
+}
+a:visited{
+    background-color:red ;
+}
+a:active{
+    color: aquamarine;
+    font-size: 60px;
+}
+#button2:hover{
+    background-color: aqua;
+}
+a:visited{
+    color: red;
+}
+#ul{
+    margin: 50px;
+}
+li:not(:hover){
+    color: rgb(5, 113, 59);
+}
+li:first-child{
+    color:blue;
+}
+li:hover{
+    color: red;
+    font-size: 1.1em;
+}
+li:nth-child(2n){
+    color: chocolate;
+}
+#div{
+    font-size: 50px;
+}
+#div:hover{
+    color: blue;
+    font-size: 60px;
+}
+#div p{
+    background-color: aqua;
+    visibility: hidden;
+}
+#div:hover p{
+    visibility: visible;
+}

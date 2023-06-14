@@ -4,37 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Forms</title>
 </head>
 <body>
 
+    <div class="form">
     <form action="index.php" method="post" enctype="multipart/form-data">
 
-    <label for="username">Username</label>
-    <input type="text" id="username" minlength="5" maxlength="6" required placeholder="satyam">
-    <br><br>
+    <h3 id="query" class="box1" >Query Form</h3>
 
-    <label for="password">Password</label>
-    <input type="password" id="password" required>
-    <br><br>
+    <label for="username" class="box1" >Username</label>
+    <input type="text" id="username" class="box1 box2" required placeholder="satyam">
+    <br>
 
-    <label for="email">Email Id: </label>
-    <input type="email" id="email" placeholder="satyam@fake.com">
-    <br><br>
+    <label for="password" class="box1">Password</label>
+    <input type="password" id="password" class="box1 box2"required>
+    <br>
 
-    <label for="phone">Phone: </label>
-    <input type="tel" id="phone" placeholder="12345-67890" pattern="[0-9]{5}-[0-9]{5}">
-    <br><br>
+    <label for="email" class="box1">Email Id: </label>
+    <input type="email" id="email" class="box1 box2" placeholder="satyam@fake.com">
+    <br>
 
-    <label for="bDay">B day: </label>
-    <input type="date" id="bDay">
-    <br><br>
+    <label for="phone" class="box1">Phone: </label>
+    <input type="tel" id="phone" class="box1 box2" placeholder="12345-67890" pattern="[0-9]{5}-[0-9]{5}">
+    <br>
 
-    <label for="quantity">Quantity</label>
-    <input type="number" id="quantity" min="0" max="10" value="1">
-    <br><br>
+    <label for="bDay" class="box1">B day: </label>
+    <input type="date" id="bDay" class="box1 box2">
+    <br>
 
-    <label for="title">Title: </label>
+    <label for="quantity" class="box1">Quantity</label>
+    <input type="number" id="quantity" class="box1 box2" min="0" max="10" value="1">
+    <br>
+
+    <label for="title" class="box1">Title : </label>
 
     <label for="Mr.">Mr.</label>
     <input type="radio" id="Mr." name="title" value="Mr.">
@@ -45,32 +52,33 @@
     <label for="Dr.">Dr.</label>
     <input type="radio" id="Dr." name="title" value="Dr.">
 
-    <br><br>
+    <br>
 
-    <label for="payment">Payment</label>
-    <select name="payment" id="payment">
+    <label for="payment" class="box1">Payment</label>
+    <select name="payment" class="box1 box2" id="payment">
         <option value="visa">visa</option>
         <option value="mastercard">mastercarrd</option>
         <option value="paytm">paytm</option>
     </select>
-    <br><br>
+    <br>
 
-    <label for="confirm">Confirm</label>
+    <label for="confirm" class="box1">Confirm</label>
     <input type="checkbox" id="checkbox" required>
-    <br><br>
+    <br>
 
-    <label for="comment">Comment</label>
-    <textarea id="comment" cols="40" rows="3"></textarea>
-    <br><br>
+    <label for="comment" class="box1">Comment</label>
+    <textarea id="comment" cols="40" rows="3" class="box1 box2"></textarea>
+    <br>
 
-    <label for="file">File: </label>
-    <input type="file" id="file" accept="image/png, immage/jpg, image/jpeg">
+    <label for="file" class="box1">File: </label>
+    <input type="file" id="file" class="box1 box2" accept="image/png, immage/jpg, image/jpeg">
 
 
-    <br><br>
-    <input type="reset">
-    <br><br>
-    <input type="submit">
+    <br>
+    <input class="box1" type="reset">
+    <br>
+    <input class="box1" type="submit">
     </form>
+</div>
 </body>
 </html>
