@@ -1,0 +1,28 @@
+.dropdown{
+    display: inline-block;
+}
+.food{
+    padding: 10px 20px;
+}
+.container{
+    background-color: rgb(209, 208, 208);
+    width: fit-content;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+}
+a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.dropdown:hover .container{
+    display: block;
+}
+.dropdown button:hover{
+    background-color: grey;
+}
+.dropdown a:hover{
+    background-color: rgb(145, 142, 142);
+}
