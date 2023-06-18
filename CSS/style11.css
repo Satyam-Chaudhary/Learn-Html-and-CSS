@@ -4,27 +4,33 @@
 }
 h1{
     text-align: center;
-    margin: 10px;
-}
-.navbar ul{
-    background-color: black;
-    text-align: center;
-    list-style-type: none;
-    overflow:hidden;
-}
-.navbar a{
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 15px;
-}
-.navbar a:hover{
-    background-color: grey;
-}
-main{
-    margin: 10px;
     padding: 10px;
 }
-.navbar li{
-    float: left;
+main{
+    margin: 15px;
 }
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
